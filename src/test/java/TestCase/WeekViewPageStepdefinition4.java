@@ -12,7 +12,7 @@ import io.cucumber.java.Before;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 
-public class WeekViewPageStepdefinition3 extends BrowserSetup {
+public class WeekViewPageStepdefinition4 extends BrowserSetup {
 
     static Properties prop;
     static FileInputStream file;
@@ -49,7 +49,6 @@ public class WeekViewPageStepdefinition3 extends BrowserSetup {
     @Then("^User enters Username weekview\"([^\"]*)\"$")
     public void user_enters_Username(String UserName) throws Throwable {
         weekviewpage.enterUsername(UserName);
-        //         weekviewpage.enterUsername(UserName);
     }
 
     @Then("^User enters Password weekview \"([^\"]*)\"$")
