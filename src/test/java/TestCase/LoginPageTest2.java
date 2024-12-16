@@ -13,7 +13,7 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 
 
-public class LoginPageTest extends BrowserSetup{
+public class LoginPageTest2 extends BrowserSetup{
 	
 	static Properties prop;
 	static FileInputStream file;
@@ -46,8 +46,6 @@ public class LoginPageTest extends BrowserSetup{
 		Thread.sleep(10000);
 	     lg = new LoginPage(driver);
 	    lg.UserName(UserName);
-	    
-	    // new code 2
 	    
 	}
 
